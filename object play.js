@@ -19,6 +19,6 @@ const sasukeBio = {
     he has completed ${this.workDetails[2]} B rank missions and ${this.workDetails[3]} A rank missions. His fire/katon techniques 
     includes the following: ${this.katonJutsu}, while his Lightening/Chidori techniques includes the following: ${this.chidoriJutsu}.
        After killing his brother Itachi, `)
-    }
+    } // update
 }
 console.log(sasukeBio.description() + sasukeBio.jutsu())
